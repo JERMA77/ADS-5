@@ -8,7 +8,7 @@ class TStack {
     T *stackArray;
     int topIndex;
 
- public:
+  public:
     TStack() {
         stackArray = new T[size];
         topIndex = -1;
